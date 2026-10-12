@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "airfar_gazebo_exporter"
+version = "0.3.0"
+name = "Air-FAR Gazebo Map Exporter"
+tagline = "Export static Blender scenes into Gazebo Classic navigation maps"
+maintainer = "0rangEEEE"
+type = "add-on"
+tags = ["Import-Export"]
+blender_version_min = "4.2.0"
+license = ["SPDX:MIT"]
+
+[permissions]
+files = "Write exported Gazebo model bundles and copy user-provided texture images"
